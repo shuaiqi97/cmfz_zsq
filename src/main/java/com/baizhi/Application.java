@@ -16,6 +16,8 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+        //测试
+        System.out.println("---------------------");
     }
     @Bean
     public HttpMessageConverters fastJsonHttpMessageConverters() {
